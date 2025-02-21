@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer{
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        color: white !important;
+      }
+}
